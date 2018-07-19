@@ -25,7 +25,7 @@ public class Main {
     private static final String SPLITTER = ",";
     private static final String FILE_PATH = "C:/Users/Ahmed/Downloads/tweets.csv";
     //private static final String FILE_PATH = "/home/toto/Desktop/tweets.csv";
-    private static final String SERVER = "192.168.44.128:9092";
+    private static final String SERVER = ":9092";
     private static final String TOPIC_NAME = "rawtwet";
     private static final ObjectMapper mapper = new ObjectMapper();
 
