@@ -27,8 +27,8 @@ public class MapFunctionLambda {
 
 
     public static void main(final String[] args) {
-        //final String bootstrapServers = args.length > 0 ? args[0] : "192.168.237.129:9092";
-        final String bootstrapServers = args.length > 0 ? args[0] : "192.168.44.128:9092";
+        //final String bootstrapServers = args.length > 0 ? args[0] : ":9092";
+        final String bootstrapServers = args.length > 0 ? args[0] : ":9092";
         final Properties streamsConfiguration = new Properties();
         // Give the Streams application a unique name.  The name must be unique in the Kafka cluster
         // against which the application is run.
