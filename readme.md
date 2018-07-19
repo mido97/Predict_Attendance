@@ -17,12 +17,12 @@ Source : web scraping
 Code : Predict_Attendance/Model/Web scraping/
 
 Information des models
-
-Location : Predict_Attendance/Model/Linear Regressor/
-           Predict_Attendance/Model/Test Model/
+Linear Regressor/
+Test Model/
 
 
 Partie NLP :
 Predict_Attendance/NLP/
 Prérequis :
 Install : Tweepy
+Mettre ses Key API
