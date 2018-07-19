@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>65001</CodePage>
+            <Delimeter>;</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>donnees-synop-essentielles-omm.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID OMM station" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Date" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Pression au niveau mer" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Variation de pression en 3 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type de tendance barométrique" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Direction du vent moyen 10 mn" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Vitesse du vent moyen 10 mn" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Point de rosée" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Humidité" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Visibilité horizontale" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Temps présent" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Temps passé 1" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Temps passé 2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nebulosité totale" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nébulosité  des nuages de l' étage inférieur" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur de la base des nuages de l'étage inférieur" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type des nuages de l'étage inférieur" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type des nuages de l'étage moyen" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type des nuages de l'étage supérieur" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Pression station" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Niveau barométrique" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Géopotentiel" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Variation de pression en 24 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température minimale sur 12 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température minimale sur 24 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température maximale sur 12 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température maximale sur 24 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température minimale du sol sur 12 heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Méthode de mesure Température du thermomètre mouillé" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Température du thermomètre mouillé" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Rafale sur les 10 dernières minutes" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Rafales sur une période" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Periode de mesure de la rafale" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Etat du sol" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur totale de la couche de neige, glace, autre au sol" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur de la neige fraîche" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Periode de mesure de la neige fraiche" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Précipitations dans la dernière heure" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Précipitations dans les 3 dernières heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Précipitations dans les 6 dernières heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Précipitations dans les 12 dernières heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Précipitations dans les 24 dernières heures" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Phénomène spécial 1" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Phénomène spécial 2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Phénomène spécial 3" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Phénomène spécial 4" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nébulosité couche nuageuse 1" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type nuage 1" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur de base 1" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nébulosité couche nuageuse 2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type nuage 2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur de base 2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nébulosité couche nuageuse 3" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type nuage 3" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur de base 3" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nébulosité couche nuageuse 4" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type nuage 4" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Hauteur de base 4" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Coordonnees" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Nom" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Type de tendance barométrique2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Temps passé 1_2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+            <Field name="Temps présent2" size="254" source="File: C:\Users\Ahmed\Desktop\Projet\Meteo\donnees-synop-essentielles-omm.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1302" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\Ahmed\Desktop\Projet\Meteo\DataM.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DataM.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="186" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Coordonnees</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Coordonnees</RootName>
+          <Delimeters value="," />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Nom] = "Orly"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Nom</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-07-14 08:34:28</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Orly</Operand>
+              <StartDate>2018-07-14 08:34:28</StartDate>
+              <EndDate>2018-07-14 08:34:28</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Nom] = "Orly"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="534" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dataset.xlsx
+Table=`LYON$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Affluence" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Capacite" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Journee" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Jours" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Date" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="Date" />
+            <Field name="Heure" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Domicile" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Resultat" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="exterieur" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Derby" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="Double" />
+            <Field name="Victoire_dom" size="255" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="V_String" />
+            <Field name="Dom_plac_joun" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="Double" />
+            <Field name="ext_plac_joun" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="Double" />
+            <Field name="Dom_plac_final" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="Double" />
+            <Field name="ext_plac_final" source="File: C:\Users\Ahmed\Desktop\Projet\Dataset.xlsx|||`LYON$`" type="Double" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Date], 10)" field="Date" size="254" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Date = Left([Date], 10)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="678" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="774" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Date</InputFieldName>
+          <Format>dd-MM-yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="702" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Affluence" selected="True" />
+            <SelectField field="Capacite" selected="True" />
+            <SelectField field="Journee" selected="True" />
+            <SelectField field="Jours" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Heure" selected="True" />
+            <SelectField field="Domicile" selected="True" />
+            <SelectField field="Resultat" selected="True" />
+            <SelectField field="exterieur" selected="True" />
+            <SelectField field="Derby" selected="True" />
+            <SelectField field="Victoire_dom" selected="True" />
+            <SelectField field="Dom_plac_joun" selected="True" />
+            <SelectField field="ext_plac_joun" selected="True" />
+            <SelectField field="Dom_plac_final" selected="True" />
+            <SelectField field="ext_plac_final" selected="True" />
+            <SelectField field="DateTime_Out2" selected="False" rename="Date" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="870" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID OMM station" selected="False" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Pression au niveau mer" selected="False" />
+            <SelectField field="Variation de pression en 3 heures" selected="False" />
+            <SelectField field="Type de tendance barométrique" selected="False" />
+            <SelectField field="Direction du vent moyen 10 mn" selected="False" />
+            <SelectField field="Vitesse du vent moyen 10 mn" selected="False" />
+            <SelectField field="Point de rosée" selected="False" />
+            <SelectField field="Humidité" selected="False" />
+            <SelectField field="Visibilité horizontale" selected="False" />
+            <SelectField field="Temps passé 1" selected="False" />
+            <SelectField field="Temps passé 2" selected="False" />
+            <SelectField field="Nebulosité totale" selected="False" />
+            <SelectField field="Nébulosité  des nuages de l' étage inférieur" selected="False" />
+            <SelectField field="Hauteur de la base des nuages de l'étage inférieur" selected="False" />
+            <SelectField field="Type des nuages de l'étage inférieur" selected="False" />
+            <SelectField field="Type des nuages de l'étage moyen" selected="False" />
+            <SelectField field="Type des nuages de l'étage supérieur" selected="False" />
+            <SelectField field="Pression station" selected="False" />
+            <SelectField field="Niveau barométrique" selected="False" />
+            <SelectField field="Géopotentiel" selected="False" />
+            <SelectField field="Variation de pression en 24 heures" selected="False" />
+            <SelectField field="Température minimale sur 12 heures" selected="False" />
+            <SelectField field="Température maximale sur 12 heures" selected="False" description="TempMax" />
+            <SelectField field="Température minimale du sol sur 12 heures" selected="False" />
+            <SelectField field="Méthode de mesure Température du thermomètre mouillé" selected="False" />
+            <SelectField field="Température du thermomètre mouillé" selected="False" />
+            <SelectField field="Rafale sur les 10 dernières minutes" selected="False" />
+            <SelectField field="Rafales sur une période" selected="False" />
+            <SelectField field="Periode de mesure de la rafale" selected="False" />
+            <SelectField field="Etat du sol" selected="False" />
+            <SelectField field="Hauteur totale de la couche de neige, glace, autre au sol" selected="False" />
+            <SelectField field="Hauteur de la neige fraîche" selected="False" />
+            <SelectField field="Periode de mesure de la neige fraiche" selected="False" />
+            <SelectField field="Précipitations dans la dernière heure" selected="False" />
+            <SelectField field="Précipitations dans les 3 dernières heures" selected="False" />
+            <SelectField field="Précipitations dans les 6 dernières heures" selected="False" />
+            <SelectField field="Précipitations dans les 12 dernières heures" selected="False" />
+            <SelectField field="Précipitations dans les 24 dernières heures" selected="False" />
+            <SelectField field="Phénomène spécial 1" selected="False" />
+            <SelectField field="Phénomène spécial 2" selected="False" />
+            <SelectField field="Phénomène spécial 3" selected="False" />
+            <SelectField field="Phénomène spécial 4" selected="False" />
+            <SelectField field="Nébulosité couche nuageuse 1" selected="False" />
+            <SelectField field="Type nuage 1" selected="False" />
+            <SelectField field="Hauteur de base 1" selected="False" />
+            <SelectField field="Nébulosité couche nuageuse 2" selected="False" />
+            <SelectField field="Type nuage 2" selected="False" />
+            <SelectField field="Hauteur de base 2" selected="False" />
+            <SelectField field="Nébulosité couche nuageuse 3" selected="False" />
+            <SelectField field="Type nuage 3" selected="False" />
+            <SelectField field="Hauteur de base 3" selected="False" />
+            <SelectField field="Nébulosité couche nuageuse 4" selected="False" />
+            <SelectField field="Type nuage 4" selected="False" />
+            <SelectField field="Hauteur de base 4" selected="False" />
+            <SelectField field="Coordonnees" selected="False" />
+            <SelectField field="Nom" selected="False" />
+            <SelectField field="Type de tendance barométrique2" selected="False" />
+            <SelectField field="Temps passé 1_2" selected="False" />
+            <SelectField field="Temps présent2" selected="False" />
+            <SelectField field="Coordonnees1" selected="False" />
+            <SelectField field="Coordonnees2" selected="False" />
+            <SelectField field="DateTime_Out" selected="True" rename="Date" />
+            <SelectField field="Température" selected="True" />
+            <SelectField field="Temps présent" selected="False" />
+            <SelectField field="Température minimale sur 24 heures" selected="False" />
+            <SelectField field="Température maximale sur 24 heures" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="990" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Date" selected="True" rename="Right_Date" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1086" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Dom_plac_final" selected="True" />
+            <SelectField field="ext_plac_joun" selected="True" />
+            <SelectField field="Dom_plac_joun" selected="True" />
+            <SelectField field="Victoire_dom" selected="True" />
+            <SelectField field="Derby" selected="True" />
+            <SelectField field="ext_plac_final" selected="True" />
+            <SelectField field="journee" selected="True" />
+            <SelectField field="Resultat" selected="True" />
+            <SelectField field="Heure" selected="True" />
+            <SelectField field="Temp_max" selected="True" />
+            <SelectField field="Domicile" selected="True" />
+            <SelectField field="Capacite" selected="True" />
+            <SelectField field="Affluence" selected="True" />
+            <SelectField field="Right_Date" selected="False" rename="Date" />
+            <SelectField field="exterieur" selected="True" />
+            <SelectField field="Jours" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Ahmed\AppData\Local\Temp\Engine_11964_8589eec01f084e8fb527d1d913ced805_\Engine_4008_ebaeee1505dc400cb16450118fe1015a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="930" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Date" action="GroupBy" rename="Date" />
+            <SummarizeField field="Température" action="Max" rename="Temp_max" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="798" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Date</InputFieldName>
+          <Format>dd-MM-yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Affluence" selected="True" />
+            <SelectField field="Capacite" selected="True" />
+            <SelectField field="Journee" selected="True" />
+            <SelectField field="Jours" selected="True" />
+            <SelectField field="Heure" selected="True" />
+            <SelectField field="Domicile" selected="True" />
+            <SelectField field="Resultat" selected="True" />
+            <SelectField field="exterieur" selected="True" />
+            <SelectField field="Derby" selected="True" />
+            <SelectField field="Victoire_dom" selected="True" />
+            <SelectField field="Dom_plac_joun" selected="True" />
+            <SelectField field="ext_plac_joun" selected="True" />
+            <SelectField field="Dom_plac_final" selected="True" />
+            <SelectField field="ext_plac_final" selected="True" />
+            <SelectField field="DateTime_Out" selected="True" rename="Date" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="26" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="26" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data cleaning</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
