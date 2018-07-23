@@ -1,7 +1,7 @@
 PROJET  :  PREDIRE L'AFFLUENCE D'UN MATCH DE FOOT
 
 Résumé : 
-Projet permettant de prédire l'affluence en fonction de plusieurs caractéristiques, avec une analyse nlp des sentiments de twitter.
+Projet permettant de prédire l'affluence d'un match de foot en fonction de plusieurs caractéristiques, avec une analyse nlp des sentiments en provenance de twitter.
 
 
 
